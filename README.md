@@ -48,6 +48,7 @@ El repositorio contiene los siguientes archivos comprimidos, generados desde la 
 También se incluye:
 
 - `diagrama_topologia.png`: diagrama de red y estructura de la solución.
+- `documentación del proyecto` : Pueden ver el documento completo en Google Docs [aquí](https://docs.google.com/document/d/1JQeTcPudIeyIX1Fp81pObQUNsGaugl5bdzlhhdsRcV0).
 
 ---
 
