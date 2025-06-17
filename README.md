@@ -8,11 +8,10 @@
 
 ## 👥 Integrantes del grupo
 
-- [Capdevila, Luis] - Legajo: [XXXX]
-- [Fernandez, Pablo Andres] - Legajo: [XXXX]
+- [Capdevila, Luis] - Legajo: [0152214]
+- [Fernandez, Pablo Andres] - Legajo: [0152993]
 - [García Lastra, Manuel] - Legajo: [0145977]
-- [Sánchez, Juan Cruz] - Legajo: [XXXX]
-- [Nombre Apellido] - Legajo: [XXXX]
+- [Sánchez, Juan Cruz] - Legajo: [0153322]
 
 ---
 
@@ -40,7 +39,7 @@ El repositorio contiene los siguientes archivos comprimidos, generados desde la 
 - `root.tar.gz`: backup del directorio `/root`
 - `etc.tar.gz`: configuración general del sistema
 - `opt.tar.gz`: contiene el script de backup (`/opt/scripts/backup_full.sh`)
-- `proc.tar.gz`: snapshot del directorio `/proc`, incluyendo el archivo `particion`
+- `particion`: Archivo `particion`.
 - `www_dir.tar.gz`: archivos del sitio web (index.php y logo.png)
 - `backup_dir.tar.gz`: backups generados por el script
 - `var_part_aa`, `var_part_ab`, ...: partes comprimidas del directorio `/var`
@@ -52,17 +51,13 @@ También se incluye:
 
 ---
 
-## 🔧 Cómo probar el entorno
-
-> ⚠️ Esta sección puede completarse si quieren agregar instrucciones para probar la VM o acceder a los servicios.
-
-Ejemplo:
+## Datos de la VM
 
 - Usuario: `root`
 - Clave: `palermo`
-- IP estática asignada: `192.168.X.X`
+- IP estática asignada: `192.168.0.100`
 - Puerto SSH: `22`
-- URL del sitio: `http://192.168.X.X`
+
 
 ---
 
@@ -70,7 +65,6 @@ Ejemplo:
 
 - `/www_dir`: montado automáticamente desde partición secundaria (3 GB)
 - `/backup_dir`: destino de backups (6 GB)
-- Ambos puntos de montaje se configuran vía `/etc/fstab`
 
 ---
 
