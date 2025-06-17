@@ -42,7 +42,7 @@ El repositorio contiene los siguientes archivos comprimidos, generados desde la 
 - `particion`: Archivo `particion`.
 - `www_dir.tar.gz`: archivos del sitio web (index.php y logo.png)
 - `backup_dir.tar.gz`: backups generados por el script
-- `var_part_aa`, `var_part_ab`, ...: partes comprimidas del directorio `/var`
+- `var_part_aa`: partes comprimidas del directorio `/var`
 
 También se incluye:
 
